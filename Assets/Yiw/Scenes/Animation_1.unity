@@ -312,6 +312,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1314730412}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6a578b700d481f4458785b029f70d78c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1314730414}
   m_SourcePrefab: {fileID: 100100000, guid: 6a578b700d481f4458785b029f70d78c, type: 3}
 --- !u!1001 &1008140814
 PrefabInstance:
@@ -324,7 +328,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b79f92d2607a8394397dcf0b8e923354,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b79f92d2607a8394397dcf0b8e923354,
         type: 3}
@@ -500,6 +504,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1314730414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314730410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af55462ad316b27428625c7fda09518b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  animationStateName: isWalking
 --- !u!1 &1548504158
 GameObject:
   m_ObjectHideFlags: 0
